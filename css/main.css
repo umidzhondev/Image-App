@@ -135,6 +135,7 @@ section {
 .main {
     padding: 70px 0;
     position: relative;
+    height: 50vh;
 }
 
 .main__inner {
@@ -149,19 +150,18 @@ section {
 }
 
 .not-results {
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #0058ff;
     color: #fff;
     font-size: 1.5rem;
     border-radius: 10px;
     display: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .not-results.visible {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .not-results.hidden {
@@ -345,9 +345,7 @@ section {
         padding: 13.5px;
     }
     .no-results{
-        width: 60%;
-        padding: 15px 20px;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 @media only screen and (max-width: 400px) {
