@@ -346,6 +346,9 @@ section {
     }
 }
 @media only screen and (max-width: 400px) {
+    .header{
+        height: 100vh;
+    }
     .main__card:nth-child(8) {
         grid-area: 1/1/2/2
     }
